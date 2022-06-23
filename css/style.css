@@ -1,1 +1,47 @@
-* { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+@import url(reset.css);
+
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+/* Navbar */
+.navbar {
+    padding: 16px 20px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.logo__title {
+    font-size: 1.2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00BFFE;
+}
+
+.navbar__menu {
+    display: flex;
+    padding: 0;
+}
+
+.navbar__menu-item {
+    padding: 16px 20px;
+}
+
+.navbar__menu-item:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #18A0FA;
+}
