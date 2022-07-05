@@ -86,3 +86,54 @@ h1 {
 .home__button:hover {
     background-color: #F9F871;
 }
+
+/* about */
+
+.about-me {
+    text-align: center;
+    padding: 16px 20px;
+}
+
+.about-me__title {
+    font-weight: bold;
+}
+
+.about__tech-stacks {
+    margin-top: 20px;
+}
+
+.tech-stack-icon {
+    border: 1px solid #5D98B8;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px; 
+    margin: 0 auto 20px auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-stack-title {
+    font-weight: bold;
+}
+
+.tech-stack-icon i {
+    color: #5D98B8;
+    font-size: 3rem;
+    
+}
+
+.tech-stack-icon i:hover {
+    transition: all 1s;
+    transform: scale(1.25) rotate(45deg);
+    color: #00BFFE;
+}
+
+.about__tech-stacks {
+    display: flex;
+    align-items: center;
+}
+
+.tech-stack {
+    flex-basis: 33.333%;
+}
